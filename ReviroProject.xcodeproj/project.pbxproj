@@ -1,0 +1,485 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		77F0D33F2B97500300197DA3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77F0D33E2B97500300197DA3 /* AppDelegate.swift */; };
+		77F0D3412B97500300197DA3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77F0D3402B97500300197DA3 /* SceneDelegate.swift */; };
+		77F0D3432B97500300197DA3 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77F0D3422B97500300197DA3 /* MainViewController.swift */; };
+		77F0D3482B97500500197DA3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77F0D3472B97500500197DA3 /* Assets.xcassets */; };
+		77F0D34B2B97500500197DA3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77F0D3492B97500500197DA3 /* LaunchScreen.storyboard */; };
+		77F0D3562B9756C400197DA3 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77F0D3552B9756C400197DA3 /* MainView.swift */; };
+		77F0D3592B976DEC00197DA3 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 77F0D3582B976DEC00197DA3 /* SnapKit */; };
+		77F0D35B2B976DEC00197DA3 /* SnapKit-Dynamic in Frameworks */ = {isa = PBXBuildFile; productRef = 77F0D35A2B976DEC00197DA3 /* SnapKit-Dynamic */; };
+		77F0D3622B976EBE00197DA3 /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 77F0D35D2B976EBE00197DA3 /* Roboto-Medium.ttf */; };
+		77F0D3632B976EBE00197DA3 /* Roboto-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 77F0D35E2B976EBE00197DA3 /* Roboto-Black.ttf */; };
+		77F0D3642B976EBE00197DA3 /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 77F0D35F2B976EBE00197DA3 /* Roboto-Regular.ttf */; };
+		77F0D3652B976EBE00197DA3 /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 77F0D3602B976EBE00197DA3 /* Roboto-Bold.ttf */; };
+		77F0D3662B976EBE00197DA3 /* Roboto-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 77F0D3612B976EBE00197DA3 /* Roboto-Light.ttf */; };
+		77F0D3692B976F4900197DA3 /* Extension+UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77F0D3682B976F4900197DA3 /* Extension+UIColor.swift */; };
+		77F0D36B2B976F5C00197DA3 /* Extension+UIFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77F0D36A2B976F5C00197DA3 /* Extension+UIFont.swift */; };
+		77F0D36F2B9779A000197DA3 /* MainCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77F0D36E2B9779A000197DA3 /* MainCollectionViewCell.swift */; };
+		77F0D3722B97915C00197DA3 /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77F0D3712B97915C00197DA3 /* CustomView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		77F0D33B2B97500300197DA3 /* ReviroProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReviroProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		77F0D33E2B97500300197DA3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		77F0D3402B97500300197DA3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		77F0D3422B97500300197DA3 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		77F0D3472B97500500197DA3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		77F0D34A2B97500500197DA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		77F0D34C2B97500500197DA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		77F0D3552B9756C400197DA3 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		77F0D35D2B976EBE00197DA3 /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Medium.ttf"; sourceTree = "<group>"; };
+		77F0D35E2B976EBE00197DA3 /* Roboto-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Black.ttf"; sourceTree = "<group>"; };
+		77F0D35F2B976EBE00197DA3 /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		77F0D3602B976EBE00197DA3 /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
+		77F0D3612B976EBE00197DA3 /* Roboto-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Light.ttf"; sourceTree = "<group>"; };
+		77F0D3682B976F4900197DA3 /* Extension+UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+UIColor.swift"; sourceTree = "<group>"; };
+		77F0D36A2B976F5C00197DA3 /* Extension+UIFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+UIFont.swift"; sourceTree = "<group>"; };
+		77F0D36E2B9779A000197DA3 /* MainCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCollectionViewCell.swift; sourceTree = "<group>"; };
+		77F0D3712B97915C00197DA3 /* CustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		77F0D3382B97500300197DA3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77F0D3592B976DEC00197DA3 /* SnapKit in Frameworks */,
+				77F0D35B2B976DEC00197DA3 /* SnapKit-Dynamic in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		77F0D3322B97500300197DA3 = {
+			isa = PBXGroup;
+			children = (
+				77F0D33D2B97500300197DA3 /* ReviroProject */,
+				77F0D33C2B97500300197DA3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		77F0D33C2B97500300197DA3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				77F0D33B2B97500300197DA3 /* ReviroProject.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		77F0D33D2B97500300197DA3 /* ReviroProject */ = {
+			isa = PBXGroup;
+			children = (
+				77F0D35C2B976E6500197DA3 /* Fonts */,
+				77F0D3672B976F0900197DA3 /* Extensions */,
+				77F0D3522B97535300197DA3 /* Screens */,
+				77F0D3532B97535800197DA3 /* Supporting */,
+				77F0D34C2B97500500197DA3 /* Info.plist */,
+			);
+			path = ReviroProject;
+			sourceTree = "<group>";
+		};
+		77F0D3522B97535300197DA3 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				77F0D3542B97537300197DA3 /* MainScreen */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		77F0D3532B97535800197DA3 /* Supporting */ = {
+			isa = PBXGroup;
+			children = (
+				77F0D33E2B97500300197DA3 /* AppDelegate.swift */,
+				77F0D3402B97500300197DA3 /* SceneDelegate.swift */,
+				77F0D3472B97500500197DA3 /* Assets.xcassets */,
+				77F0D3492B97500500197DA3 /* LaunchScreen.storyboard */,
+			);
+			path = Supporting;
+			sourceTree = "<group>";
+		};
+		77F0D3542B97537300197DA3 /* MainScreen */ = {
+			isa = PBXGroup;
+			children = (
+				77F0D3702B97913800197DA3 /* View */,
+				77F0D36C2B97797800197DA3 /* Cells */,
+				77F0D3422B97500300197DA3 /* MainViewController.swift */,
+			);
+			path = MainScreen;
+			sourceTree = "<group>";
+		};
+		77F0D35C2B976E6500197DA3 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				77F0D35E2B976EBE00197DA3 /* Roboto-Black.ttf */,
+				77F0D3602B976EBE00197DA3 /* Roboto-Bold.ttf */,
+				77F0D3612B976EBE00197DA3 /* Roboto-Light.ttf */,
+				77F0D35D2B976EBE00197DA3 /* Roboto-Medium.ttf */,
+				77F0D35F2B976EBE00197DA3 /* Roboto-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		77F0D3672B976F0900197DA3 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				77F0D3682B976F4900197DA3 /* Extension+UIColor.swift */,
+				77F0D36A2B976F5C00197DA3 /* Extension+UIFont.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		77F0D36C2B97797800197DA3 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				77F0D36E2B9779A000197DA3 /* MainCollectionViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		77F0D3702B97913800197DA3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				77F0D3552B9756C400197DA3 /* MainView.swift */,
+				77F0D3712B97915C00197DA3 /* CustomView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		77F0D33A2B97500300197DA3 /* ReviroProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 77F0D34F2B97500500197DA3 /* Build configuration list for PBXNativeTarget "ReviroProject" */;
+			buildPhases = (
+				77F0D3372B97500300197DA3 /* Sources */,
+				77F0D3382B97500300197DA3 /* Frameworks */,
+				77F0D3392B97500300197DA3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ReviroProject;
+			packageProductDependencies = (
+				77F0D3582B976DEC00197DA3 /* SnapKit */,
+				77F0D35A2B976DEC00197DA3 /* SnapKit-Dynamic */,
+			);
+			productName = ReviroProject;
+			productReference = 77F0D33B2B97500300197DA3 /* ReviroProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		77F0D3332B97500300197DA3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					77F0D33A2B97500300197DA3 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = 77F0D3362B97500300197DA3 /* Build configuration list for PBXProject "ReviroProject" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 77F0D3322B97500300197DA3;
+			packageReferences = (
+				77F0D3572B976DEB00197DA3 /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
+			productRefGroup = 77F0D33C2B97500300197DA3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				77F0D33A2B97500300197DA3 /* ReviroProject */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		77F0D3392B97500300197DA3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77F0D34B2B97500500197DA3 /* LaunchScreen.storyboard in Resources */,
+				77F0D3482B97500500197DA3 /* Assets.xcassets in Resources */,
+				77F0D3652B976EBE00197DA3 /* Roboto-Bold.ttf in Resources */,
+				77F0D3642B976EBE00197DA3 /* Roboto-Regular.ttf in Resources */,
+				77F0D3662B976EBE00197DA3 /* Roboto-Light.ttf in Resources */,
+				77F0D3622B976EBE00197DA3 /* Roboto-Medium.ttf in Resources */,
+				77F0D3632B976EBE00197DA3 /* Roboto-Black.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		77F0D3372B97500300197DA3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77F0D36F2B9779A000197DA3 /* MainCollectionViewCell.swift in Sources */,
+				77F0D3722B97915C00197DA3 /* CustomView.swift in Sources */,
+				77F0D3562B9756C400197DA3 /* MainView.swift in Sources */,
+				77F0D3432B97500300197DA3 /* MainViewController.swift in Sources */,
+				77F0D3692B976F4900197DA3 /* Extension+UIColor.swift in Sources */,
+				77F0D33F2B97500300197DA3 /* AppDelegate.swift in Sources */,
+				77F0D36B2B976F5C00197DA3 /* Extension+UIFont.swift in Sources */,
+				77F0D3412B97500300197DA3 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		77F0D3492B97500500197DA3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				77F0D34A2B97500500197DA3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		77F0D34D2B97500500197DA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		77F0D34E2B97500500197DA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		77F0D3502B97500500197DA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RPXJGA4ZYB;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ReviroProject/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alikhan.ReviroProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		77F0D3512B97500500197DA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RPXJGA4ZYB;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ReviroProject/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alikhan.ReviroProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		77F0D3362B97500300197DA3 /* Build configuration list for PBXProject "ReviroProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77F0D34D2B97500500197DA3 /* Debug */,
+				77F0D34E2B97500500197DA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		77F0D34F2B97500500197DA3 /* Build configuration list for PBXNativeTarget "ReviroProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77F0D3502B97500500197DA3 /* Debug */,
+				77F0D3512B97500500197DA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		77F0D3572B976DEB00197DA3 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.7.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		77F0D3582B976DEC00197DA3 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 77F0D3572B976DEB00197DA3 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+		77F0D35A2B976DEC00197DA3 /* SnapKit-Dynamic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 77F0D3572B976DEB00197DA3 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = "SnapKit-Dynamic";
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 77F0D3332B97500300197DA3 /* Project object */;
+}
