@@ -14,6 +14,8 @@ class MainViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         setupDelegates()
+        navigationController?.isNavigationBarHidden = true
+        mainView.showPlaces.addTarget(self, action: #selector(placesPressed), for: .touchUpInside)
     }
     
     override func loadView() {
@@ -24,6 +26,13 @@ class MainViewController: UIViewController {
         mainView.collectionView.delegate = self
         mainView.collectionView.dataSource = self
     }
+    
+    @objc func placesPressed() {
+        print("Something")
+        let vc = PlacesViewController()
+        vc.modalPresentationStyle = .overFullScreen
+        present(vc, animated: true)
+    }
 }
 
 extension MainViewController: UICollectionViewDelegate, UICollectionViewDataSource {
@@ -32,7 +41,7 @@ extension MainViewController: UICollectionViewDelegate, UICollectionViewDataSour
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: MainCollectionViewCell.identifier, for: indexPath)
+        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: MainCollectionViewCell.identifier, for: indexPath) as! MainCollectionViewCell
         if (indexPath.row % 2) == 0 {
             cell.backgroundColor = .purple
         } else {

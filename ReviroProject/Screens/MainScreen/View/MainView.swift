@@ -10,6 +10,18 @@ import SnapKit
 
 class MainView: UIView {
     
+    lazy var addButton = {
+        let button = UIButton()
+        button.setImage(UIImage(named: "imageAdd"), for: .normal)
+        return button
+    }()
+    
+    lazy var showPlaces = {
+        let button = UIButton()
+        button.setImage(UIImage(named: "redirectionImage"), for: .normal)
+        return button
+    }()
+    
     lazy var collectionView: UICollectionView = {
         let layout = UICollectionViewFlowLayout()
         layout.scrollDirection = .horizontal
@@ -28,7 +40,7 @@ class MainView: UIView {
         let pageControl = UIPageControl()
         pageControl.currentPageIndicatorTintColor = .white
         pageControl.pageIndicatorTintColor = .lightGray
-        pageControl.numberOfPages = 2
+        pageControl.numberOfPages = 3
         pageControl.isUserInteractionEnabled = false
         return pageControl
     }()
@@ -41,6 +53,22 @@ class MainView: UIView {
     func setupConstraints() {
         addSubview(collectionView)
         addSubview(pageController)
+        addSubview(addButton)
+        addSubview(showPlaces)
+        
+        addButton.snp.makeConstraints { make in
+            make.top.equalToSuperview().offset(dHeight(50))
+            make.leading.equalToSuperview().offset(dWidth(24))
+            make.height.equalTo(40)
+            make.width.equalTo(40)
+        }
+        
+        showPlaces.snp.makeConstraints { make in
+            make.top.equalToSuperview().offset(dHeight(50))
+            make.trailing.equalToSuperview().offset(dWidth(-24))
+            make.height.equalTo(40)
+            make.width.equalTo(40)
+        }
         
         collectionView.snp.makeConstraints { make in
             make.edges.equalToSuperview()
@@ -48,7 +76,7 @@ class MainView: UIView {
         
         pageController.snp.makeConstraints { make in
             make.centerX.equalToSuperview()
-            make.bottom.equalToSuperview().offset(-76)
+            make.bottom.equalToSuperview().offset(dHeight(-76))
         }
     }
     
